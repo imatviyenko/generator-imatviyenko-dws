@@ -1,0 +1,10 @@
+{
+  "dockerStackName": "<%= projectName %>",
+  "dockerImageName": "<%= projectName %>_api",
+  "dockerRegistryPath": "<%= dockerRegistryPath %>",
+  "sslCertSecretName": "<%= projectName %>_sslcert.cert",
+  "sslCertKeySecretName": "<%= projectName %>_sslcert.key",
+  "sslCertPemSecretName": "<%= projectName %>_sslcert.pem",
+  "usersFileSecretName": "<%= projectName %>_users.json",
+  "configName": "<%= projectName %>_config"
+}
